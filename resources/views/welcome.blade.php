@@ -82,7 +82,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="card-body">
-                            <form method="POST" name="formNewTask" action="/ew_task">
+                            <form method="POST" name="formNewTask" action="/new_task">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="title" class="form-label">Título</label>
